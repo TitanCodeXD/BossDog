@@ -1,0 +1,24 @@
+.menu-icon {
+    /*Criando variáveis para o tamanho da caixa ficar sem sobras, ficar exatamente com o tamanho do que esta sendo criado*/
+    --height: 8px;
+    --gap: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: calc((var(--height) * 3) + (var(--gap) * 2));
+    gap: var(--gap);
+}
+
+.menu-icon .first {
+    width: 100%;
+    height: var(--height);
+    background-color: #ffc825;
+}
+
+.menu-icon::after,
+.menu-icon::before {
+    content: '';
+    width: 100%;
+    height: var(--height);
+    background-color: #ffc825;
+}

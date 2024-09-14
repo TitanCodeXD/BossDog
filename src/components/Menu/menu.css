@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu > .wrapper-actions {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 1060px) {
+    .menu > .wrapper-actions {
+        display: none;
+    }
+}
