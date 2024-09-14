@@ -4,3 +4,9 @@ header {
     justify-content: space-between;
     margin: 10px;
 }
+
+header > nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

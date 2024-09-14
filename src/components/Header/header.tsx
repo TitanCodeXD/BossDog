@@ -10,11 +10,13 @@ const Header = () => {
     return (
         <header>
             <Logo />
-            <Action href="#nft" content="Nft" />
-            <Action href="#token" content="Token" />
-            <Action href="#team" content="Team" />
-            <Action href="#whitepaper" content="Whitepaper" />
-            <Button />
+            <nav>
+                <Action href="#nft" content="Nft" />
+                <Action href="#token" content="Token" />
+                <Action href="#team" content="Team" />
+                <Action href="#whitepaper" content="Whitepaper" className="highlight" />
+                <Button />
+            </nav>
         </header>
     );
 };

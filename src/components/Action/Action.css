@@ -4,3 +4,7 @@ a {
     font-size: 16px;
     text-transform: uppercase;
 }
+
+a.highlight {
+    color: #ffc825;
+}
