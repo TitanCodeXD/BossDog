@@ -1,5 +1,6 @@
-//Images
-import Logo from './assets/Logo bossdog.png';
+//Components
+import Logo from './components/Logo/logo';
+import Button from './components/Button/button';
 
 //Css
 import './styles/main.css';
@@ -7,9 +8,8 @@ import './styles/main.css';
 function App() {
     return (
         <>
-            <div>
-                <img alt="BossDog Logo" src={Logo}></img>
-            </div>
+            <Logo />
+            <Button />
         </>
     );
 }
