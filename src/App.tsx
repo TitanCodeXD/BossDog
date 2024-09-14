@@ -1,8 +1,14 @@
+//Images
+import Logo from './assets/Logo bossdog.png';
+
+//Css
+import './styles/main.css';
+
 function App() {
     return (
         <>
             <div>
-                <h1>BoosDog</h1>
+                <img alt="BossDog Logo" src={Logo}></img>
             </div>
         </>
     );
